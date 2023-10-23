@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    background-image: url(images/background.jpg);
+}
+
+h1{
+    color: black;
+    background-color: aquamarine;
+    outline-color: aliceblue;
+}
+
+p {
+    text-align: center;
+    color:black ;
+    text-transform: uppercase;
+    font-size: 35px;
+    
+    
+    
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(49, 48, 48);
+}
+.navbar li{
+   float: left;
+}
+footer{
+    
+        background-color: #333; 
+        color: #fff; 
+        text-align: center;
+        padding: 0px; 
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+}
